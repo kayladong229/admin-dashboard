@@ -9,7 +9,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: clamp(200px, 30%, 300px) clamp(1000px, 70%, 1100px);
 }
 
 .sidebar {
